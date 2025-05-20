@@ -1,0 +1,23 @@
+{
+  "index_configuration": {
+    "name": "document-search-index",
+    "fields": [
+      {
+        "name": "content",
+        "type": "text",
+        "searchable": true,
+        "filterable": false
+      },
+      {
+        "name": "entities",
+        "type": "collection",
+        "analyzer": "entity_extractor"
+      }
+    ],
+    "simulated_ai_features": [
+      "key_phrase_extraction",
+      "entity_recognition",
+      "semantic_ranking"
+    ]
+  }
+}
