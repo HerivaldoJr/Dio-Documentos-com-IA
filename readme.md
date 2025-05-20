@@ -12,13 +12,3 @@ Este repositório simula um ambiente completo para ingestão, processamento e in
 - Criação de índices cognitivos
 - Recuperação semântica de informação
 
-## 📂 Estrutura do Repositório
-
-/document-ai-lab
-├── /data-ingestion # Pipeline de ingestão de documentos
-├── /index-creation # Configurações de indexação
-├── /query-experiments # Testes de pesquisa e relevância
-├── /docs # Documentação técnica
-├── /images # Diagramas e capturas
-├── README.md # Este arquivo
-└── SETUP.md # Guia de configuração
